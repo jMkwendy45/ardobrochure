@@ -7,7 +7,7 @@ const Home = () => {
     <div className="home">
       <Hero />
       <CarGrid />
-      <BrandIndex/>
+      {/* <BrandIndex/> */}
     </div>
   );
 };
