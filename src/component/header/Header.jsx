@@ -29,6 +29,12 @@ const Header = () => {
             >
               CONTACT
             </Link>
+            <Link
+              to="/brand-index"
+              className="text-gray-600 hover:text-gray-900 font-medium"
+            >
+              Brand Index
+            </Link>
             <button className="text-gray-600 hover:text-gray-900">
               <Search size={20} />
             </button>
@@ -55,14 +61,16 @@ const Header = () => {
           <div className="fixed inset-y-0 right-0 w-64 bg-white">
             <div className="p-4">
               <div className="flex justify-end">
+                
                 <Link to="/">
-                  <button
-                    onClick={() => setIsDrawerOpen(false)}
-                    className="text-gray-600 hover:text-gray-900"
-                  >
-                    <X size={24} />
-                  </button>
+                <button
+                  onClick={() => setIsDrawerOpen(false)}
+                  className="text-gray-600 hover:text-gray-900"
+                >
+                  <X size={24} />
+                </button>
                 </Link>
+              
               </div>
 
               <nav className="mt-8 flex flex-col space-y-4">

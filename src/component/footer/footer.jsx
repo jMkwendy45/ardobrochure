@@ -14,19 +14,19 @@ const Footer = () => {
             </p>
           </div>
 
-          <div>
+          {/* <div>
             <h3 className="text-lg font-bold mb-4 ml-6">SUBSCRIBE</h3>
             <div className="flex flex-col sm:flex-row gap-2 ml-6">
-              {/* <input
+              <input
                 type="email"
                 placeholder="Your email"
                 className="px-4 py-2 ml-6 rounded bg-[#5875ed] text-white placeholder-blue-300 outline-none focus:ring-2 focus:ring-blue-500"
-              /> */}
-              {/* <button className="px-4 py-2 bg-[#0e2068] hover:bg-[#0e2068] rounded transition-colors">
+              /> 
+              <button className="px-4 py-2 bg-[#0e2068] hover:bg-[#0e2068] rounded transition-colors">
                 SIGN UP
-              </button> */}
+              </button>
             </div>
-          </div>
+          </div> */}
 
           {/* Logo Section */}
           <div className="flex items-center justify-start md:justify-end">
