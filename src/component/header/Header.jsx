@@ -78,7 +78,7 @@ const Header = () => {
                   HOME
                 </Link>
                 <Link
-                  to="/brands"
+                  to="/brand-index"
                   className="text-gray-600 hover:text-gray-900 font-medium px-2 py-1"
                 >
                   BRAND INDEX
